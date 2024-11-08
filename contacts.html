@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <style>
+    body {
+        margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #262a2a;
+      background-image:  linear-gradient(to right, rgba(255, 0, 0, 0), rgb(165, 183, 188)),url(images/barber-barbershop-haircut-hairdo.jpg);
+      filter: blur(0.005px);
+
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: rgba(107, 65, 117, 0.192);
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    header{
+      text-align: center;
+      font-size: 30px;
+      margin-top: 0px;
+      margin-bottom:100 ;
+
+    }
+  
+    .navbar {
+           text-align: right;
+           margin-top: 20px;
+           margin-right: 20px;
+           font-size: 18px;
+       }
+        .navbar a {
+            padding:  20px;
+            margin: 0 10px;
+            color: rgb(23, 22, 22);
+            text-decoration: none;
+            border: 1px solid rgb(84, 82, 82);
+            border-radius: 5px;
+            background-color: rgba(100, 178, 139, 0.3);
+            transition: all 0.3s ease;
+        }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 0%;
+      border-radius: 6px;
+      font-size: 20px;
+      background-color: #91bebd1d;
+    }
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: rgb(207, 164, 56);
+    }
+  
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="navbar" style = "margin-bottom: 35px;">
+     <a href="MORYA_MENS.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="barbers.html">Barbers</a>
+    <a href="time.html">Time</a>
+  </nav>
+        <a href="#about" Style="text-align: right corner; margin-right: 18px;"></a><img
+    src="images/logo_of_tatya-removebg-preview.png" width="280" height="200"></a>
+  <header>
+  <h1>Contact Us</h1>
+  <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
